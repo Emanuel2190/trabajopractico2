@@ -6,9 +6,11 @@ padding-bottom: 100px;
 }
 
 
-
-
-
+.card-img1 {
+    height: 480px;
+    width: 48%;
+    border-radius: 0%
+}
 
 
 

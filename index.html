@@ -44,15 +44,15 @@
           </ul>
         </div>
       </nav>
-
+    </div>
       
-      <!--texto y botones use tarjetas-->
+      <!--texto y botones, use tarjetas-->
       <div class="rows" style="padding: 80px; padding-top: 235px">
       
         <div class="offset-lg-7 col-lg-5 offset-md-4 col-md-8 col-sm-9 text-end">
           <div class="card-body">
             <h2 class="card-title" style="color: azure">Conf Bs As</h2>
-            <p class="card-text" style="color: azure">Bs As llega por primera vez a Argentina. Un evento para compartir con nuestra comunidad el conocimiento y experiencia de los expertos que están creando el futuro de internet. Ven a conocer miembros del evento, a otros estudiantes de Codo a Codo y los oradores de primer nivel que tenemos para ti. Te esperamos!</p>
+            <p class="card-text" style="color: azure">Bs As llega por primera vez a Argentina. Un evento para compartir con nuestra comunidad el conocimiento y experiencia de los expertos que están creando el futuro de internet. Ven a conocer miembros del evento, a otros estudiantes de Codo a Codo y los oradores de primer nivel que tenemos para ti. Te esperamos!</p>
             <div class="d-grid gap-2 d-md-flex justify-content-md-end">
               <button class="btn btn-outline-light" type="button" style="margin: 3px;" >Quiero ser orador</button>
               <button class="btn btn-primary" type="button"style="margin: 3px; background-color:rgb(14, 185, 14); border-color:rgb(14, 185, 14)">Comprar tickets</button>
@@ -61,6 +61,7 @@
         </div>
       </div>
   </header>
+  
 
   
   <!--titulo de los oradores-->
@@ -80,12 +81,12 @@
             <span class="badge text-bg-info">React</span>
           </div>
           <h5 class="card-title">Steve Jobs</h5>
-          <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores sunt quaerat repellat itaque ab numquam repellendus optio, nisi dicta, molestiae modi natus amet, adipisci cumque tempore placeat odio minima ducimus!</p>
+          <p class="card-text"><small>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores sunt quaerat repellat itaque ab numquam repellendus optio, nisi dicta, molestiae modi natus amet, adipisci cumque tempore placeat odio minima ducimus!</small></p>
         </div>
       </div>
     </div>
     <div class="col">
-      <div class="card" style="">
+      <div class="card" >
         <img src="./imagenes/bill.jpg" class="card-img-top" alt="Orador Bill Gates">
         <div class="card-body">
           <div class="badges">
@@ -93,7 +94,7 @@
             <span class="badge text-bg-info">React</span>
           </div>
           <h5 class="card-title">Bill Gates</h5>
-          <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores sunt quaerat repellat itaque ab numquam repellendus optio, nisi dicta, molestiae modi natus amet, adipisci cumque tempore placeat odio minima ducimus!</p>
+          <p class="card-text"><small>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores sunt quaerat repellat itaque ab numquam repellendus optio, nisi dicta, molestiae modi natus amet, adipisci cumque tempore placeat odio minima ducimus!</small></p>
         </div>
       </div>
     </div>
@@ -106,21 +107,90 @@
           <span class="badge text-bg-danger">Startups</span>
         </div>
         <h5 class="card-title">Ada Lovelace</h5>
-        <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores sunt quaerat repellat itaque ab numquam repellendus optio, nisi dicta, molestiae modi natus amet, adipisci cumque tempore placeat odio minima ducimus!</p>
+        <p class="card-text"><small>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores sunt quaerat repellat itaque ab numquam repellendus optio, nisi dicta, molestiae modi natus amet, adipisci cumque tempore placeat odio minima ducimus!</small></p>
         </div>
       </div>
     </div>
+  </div>
 
+    <!--imagen de playa y cometario use car y boton-->
+  <div class="container" style="margin-top: 25px; padding: 0px; "></div>
+    <div class="card text-bg-dark text-end" style="margin-left: 0px; margin-right: 0px;">
+      <img src="./imagenes/honolulu.jpg" class="card-img1" alt="">
+      <div class="card-img-overlay">
+        <h4 class="card-title" style="margin-left: 50%; text-align: left;" >Bs As - Octubre</h4>
+        <p class="card-text" style="margin-left: 50%; text-align: left;"><small>Buenos Aires es la provincia y localidad más grande del estado de Argentina, en los Estados Unidos. Honolulu es la más sureña de entre las principales ciudades estadounidenses. Aunque el nombre de Honolulu se refiere al área urbana en la costa sureste de la isla de Oahu, la ciudad y el condado de Honolulu han formado una ciudad-condado consolidada que cubre toda la ciudad (aproximadamente 600km2 de superficie).</small> 
+        <br><br>
+        <button type="button" class="btn btn-outline-light">Conocé más</button></p>        
+      </div>
+    </div>
+  </div>  
+</div>
+<!--use card y tipografia-->
+<div class="card text-center"style="border:0">
+  <div class="card-header" style="border: 0; padding-bottom: 0px;"><p style="margin-bottom: 0px; margin-top: 15px;"><small>CONVÍERTETE EN UN</small></P><h2>ORADOR</h2>
+  </div>
+  <p class="text-center">Anótate como orador para dar una <abbr title="attribute">charla ignite</abbr>. Cuéntanos de qué quieres hablar!</p>
+</div>
 
-
-
-  <!--imagen de playa y cometario use -->
-  
+<!--use formulario-->
+<div class="form" style="margin-left: 300px; margin-right: 300px;">
+  <div class="row g-3">
+    <div class="col">
+      <input type="text" class="form-control" placeholder="Nombre" aria-label="First name">
+    </div>
+    <div class="col">
+      <input type="text" class="form-control" placeholder="Apellido" aria-label="Last name">
+    </div>
+    <div class="form-floating">
+      <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+      <label  for="floatingTextarea2" style="font-size:large">Sobre qué quieres hablar?</label>
+    </div>
+    <div class="form-floating mb-3">
+      <input type="email" readonly class="form-control-plaintext" id="floatingEmptyPlaintextInput" placeholder="name@example.com">
+      <label for="floatingEmptyPlaintextInput" class="lead" style="padding-top: 0px; "><small>Recuerdo incluir un título para tu charla</small></label>
+      <!--boton de enviar-->
+      <div class="d-grid gap-2" style="margin-top: 0px" >
+        <button class="btn btn-primary" type="button"style="background-color:rgb(14, 205, 10); border-color:rgb(14, 205, 10)">Enviar</button>
       </div>
     </div>
   </div>
+    <!--use navbar-->
+    <footer>
+      <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg" >
+          <div class="container">
+            <div class="collapse navbar-collapse justify-content-center" >
+              <ul class="navbar-nav mb-2 mb-lg-0" style="background-color:  #1d5271;">
+                <li class="nav-item">
+                  <a class="nav-link white" aria-current="page" href="#" style="color: white; justify-content: center;">Preguntas Frecuentes</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link white" href="#" style="color: white; justify-content: center;">Contáctanos</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link white" href="#" style="color: white; justify-content: center;">Prensa</a>
+                </li>
+                <li class="nav-item">
+                 <a class="nav-link white" href="#" style="color: white; justify-content: center;">Conferencias</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link white" href="#" style="color: white; justify-content: center;">Términos y condiciones</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link white" href="#" style="color: white; justify-content: center;">Privacidad</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link white" href="#" style="color: white; justify-content: center;">Estudiantes</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </footer>
 </div>
-</div>
+
 
 
 
